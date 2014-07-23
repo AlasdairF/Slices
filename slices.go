@@ -1,39 +1,3 @@
-/*
-
-INDEX
-
-Array2Map_uint
-Array2Map_string
--- Converts a slice to a map
-
-ArrayUniqueRetain_uint
-ArrayUniqueRetain_string
--- Very fast method for removing duplicates from a slice, using maps, preserves the order of the original slice
-
-ArrayUnique_uint
-ArrayUnique_string
--- Very fast method for removing duplicates from a slice, using maps, even faster but does not preserve the order
-
-ArrayIntersect_uint
-ArrayIntersect_string
--- Returns a new slice that consists only of values that existed in all slices
-
-ArrayRemove_uint
-ArrayRemove_string
--- Return a new slice that consists of the values in the first slice that don't exist in any subsequent slices
-
-ArraySquish_uint
-ArraySquish_string
--- Returns a new slice having combined the values of all slices into one, with duplicates removed and moved higher up the list
-
-NOTES
-
-I am aware that I use the term `array` a lot instead of `slice`. This is because I don't care much for the difference and `array` is easier to think of.
-I tend to use uint for most things, I'm not a fan of int, therefore these functions are made to work only with uint and string.
-
-*/
-
-
 package aslices
 
 import (
