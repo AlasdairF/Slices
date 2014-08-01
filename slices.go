@@ -86,7 +86,7 @@ func ArrayUnique_uint(a []uint) []uint {
 	mc := Array2Map_uint(a)
 	b := make([]uint,len(mc))
 	var i uint
-	for k := range mc {
+	for k,_ := range mc {
 		b[i] = k
 		i++
 	}
@@ -98,7 +98,7 @@ func ArrayUnique_string(a []string) []string {
 	mc := Array2Map_string(a)
 	b := make([]string,len(mc))
 	var i uint
-	for k := range mc {
+	for k,_ := range mc {
 		b[i] = k
 		i++
 	}
