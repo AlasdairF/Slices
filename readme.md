@@ -1,3 +1,5 @@
+*This package is no longer supported. It is the first thing I wrote in Go and likely needs to be re-coded.*
+
 ##Slices
 
 Herein are general slice functions created for my own practical use. Many of these functions involve using maps (i.e. hashtables) to count occurrences and remove duplicates, which is faster than doing these things the non-hashtable way. In most cases maps are even faster than hardcoded select statements. Don't believe me? Test it.
